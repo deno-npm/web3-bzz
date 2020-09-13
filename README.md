@@ -11,7 +11,7 @@ Please read the [documentation][docs] for more.
 ## Usage
 
 ```js
-import Web3Bzz from "https://deno.land/x/npm_web3_bzz@0.0.1/mod.ts";
+import Web3Bzz from "https://deno.land/x/npm_web3_bzz@0.0.1/mod.js";
 
 const bzz = new Web3Bzz('https://swarm-gateways.net');
 ```
