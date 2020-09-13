@@ -16,6 +16,11 @@ import Web3Bzz from "https://deno.land/x/npm_web3_bzz@0.0.1/mod.ts";
 const bzz = new Web3Bzz('https://swarm-gateways.net');
 ```
 
+## TODO
+- [ ] Add tests
+- [ ] Check types for upload (only string and uint8array supported at the moment)
+- [ ] Merge types
+
 [docs]: http://web3js.readthedocs.io/en/1.0/
 [repo]: https://github.com/ethereum/web3.js
 [npm-image]: https://img.shields.io/npm/v/web3-bzz.svg
