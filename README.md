@@ -8,25 +8,13 @@ This is the swarm package.
 
 Please read the [documentation][docs] for more.
 
-## Installation
-
-### Node.js
-
-```bash
-npm install web3-bzz
-```
-
 ## Usage
 
 ```js
-const Web3Bzz = require('web3-bzz');
+import Web3Bzz from "https://deno.land/x/npm_web3_bzz@0.0.1/mod.ts";
 
-const bzz = new Web3Bzz('http://swarm-gateways.net');
+const bzz = new Web3Bzz('https://swarm-gateways.net');
 ```
-
-## Types
-
-All the TypeScript typings are placed in the `types` folder.
 
 [docs]: http://web3js.readthedocs.io/en/1.0/
 [repo]: https://github.com/ethereum/web3.js
